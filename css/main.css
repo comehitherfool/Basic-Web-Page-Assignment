@@ -1,1 +1,38 @@
 /* Place CSS styles here */
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: rgb(186, 43, 43);
+}
+a:hover{
+    color: rgb(211, 123, 123);
+}
+
+body {
+    color: rgb(0, 0, 0);
+    background-color: rgb(240, 240, 213);
+    font: size 40px;
+    font-family: "Geo", serif;
+    font-weight: 400;
+}
+
+.cult-hero {
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 60;
+}
+
+
+footer {
+    background-color: rgb(250, 235, 215);
+    font: size 40px;
+    padding: 30px;
+    text-align: center;
+}
